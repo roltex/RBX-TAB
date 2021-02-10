@@ -1,4 +1,3 @@
-import $ from 'jquery';
 $(".vertical-tab .each-tab").on("click", function (e) {
     var dis = $(this),
         dataTarget = dis.data("target");
